@@ -2,13 +2,16 @@
   "name": "react-practice-code",
   "version": "1.0.0",
   "description": "just react thinks how to use it.",
-  "main": "App.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "test": "jest",
+    "build": "parcel build index.html"
   },
   "author": "Nitesh Jakhar",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.10.0",
     "process": "^0.11.10"
   },
