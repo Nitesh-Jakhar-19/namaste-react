@@ -1,3 +1,32 @@
-#container {
-  background-color: yellowgreen;
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 1px solid black;
+}
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav-items > ul > li {
+  padding: 10px;
+}
+.logo {
+  width: 100px;
+  padding: 5px;
+}
+.card {
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(200, 200, 149);
+}
+.card > img {
+  width: 100%;
+}
+.body {
+  display: flex;
+  flex-wrap: wrap;
 }

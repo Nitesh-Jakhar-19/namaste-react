@@ -1,5 +1,40 @@
-#container {
-  background-color: #9acd32;
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  margin: 10px;
+  display: flex;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  padding: 5px;
+}
+
+.card {
+  background-color: #c8c895;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.body {
+  flex-wrap: wrap;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.9e4c6fd2.css.map */
